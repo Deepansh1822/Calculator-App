@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="image.jpg" type="image/x-icon">
+    <title>!! Welcome to my Calculator !!</title>
+    <style>
+        .input
+        {
+            box-sizing: border-box;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #bar
+        {
+            background-color: chartreuse;
+            height: 30px;
+            width: 50vw;
+        }
+
+        #bar::-webkit-slider-thumb
+        {
+
+        }
+
+        #bar::-webkit-file-upload-button
+    </style>
+</head>
+<body>
+    <div class="input">
+        <input type="range" class="bar" id="bar" min="0" max="100" value="0" step="1"/>
+    </div>
+</body>
+</html>
